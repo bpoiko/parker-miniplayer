@@ -1,0 +1,42 @@
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  background-color: black;
+}
+
+
+
+#button-container{
+  display: contents;
+}
+
+
+#url-input{
+  width: 75vw;
+  flex: 1;
+  padding-bottom: 5px;
+  background-color: rgb(190, 143, 235);
+  color:white;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5%;
+}
+
+
+button{
+  cursor:pointer;
+  background-color: gray;
+  color: white;
+  border-radius: 20%;
+}
+
+webview{
+  height:100vh;
+  
+}
+
+@media(max-wdith:800px){
+  #go{
+    display: none;
+  }
+}
